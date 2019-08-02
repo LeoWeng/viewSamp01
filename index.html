@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Industrious</title>
-    <link rel="stylesheet" href="css/desktop.css">
+    <link href="css/desktop.css" rel="stylesheet" media="screen and (min-width: 960px)">
+    <link href="css/pad.css" rel="stylesheet" media="screen and (max-width: 959px) and (min-width: 730px)">
+    <link href="css/phone.css" rel="stylesheet" media="screen and (max-width: 729px)">
     <link rel="stylesheet" href="fontawesome/css/all.css">
 </head>
 <body>
@@ -22,8 +24,11 @@
     </div>
     <div class="full-width banner">
         <div class="overlay">
-            <h1>Industrious</h1>
-            <h5>A responsive business oriented template with a video background designed by TEMPLATED and released under the Creative Commons License.</h5>
+            <video autoplay loop muted playsinline src="./img/banner.mp4"></video>
+            <div class="bannerTitle">
+                <h1>Industrious</h1>
+                <h5>A responsive business oriented template with a video background designed by TEMPLATED and released under the Creative Commons License.</h5>
+            </div>
         </div>
     </div>
     <div class="full-width sem clearfix">
@@ -82,59 +87,61 @@
             <p class="subtitle">Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
         </div>
     </div>
-    <div class="full-width fau">
+    <div class="full-width fau clearfix">
         <h2>FAUCIBUS CONSEQUAT LOREM</h2>
         <p class="subtitle">In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
         <div class="fau_item">
             <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
             <div>
-                <div></div>
-                <p>-<span>Jane Doe</span>CEO - ABC Inc.</p>
+                <div class="ceo"><img src="./img/peopel01.jpg" alt=""></div>
+                <p>-<span> Jane Doe </span>CEO - ABC Inc.</p>
             </div>
         </div>
         <div class="fau_item">
             <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
             <div>
-                <div></div>
-                <p>-<span>John Doe</span>CEO - ABC Inc.</p>
+                <div class="ceo"><img src="./img/peopel02.jpg" alt=""></div>
+                <p>-<span> John Doe </span>CEO - ABC Inc.</p>
             </div>
         </div>
         <div class="fau_item">
             <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
             <div>
-                <div></div>
-                <p>-<span>Janet Smith</span>CEO - ABC Inc.</p>
+                <div class="ceo"><img src="./img/peopel03.jpg" alt=""></div>
+                <p>-<span> Janet Smith </span>CEO - ABC Inc.</p>
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer clearfix">
         <div class="acc">
-            <h2>ACCUMSAN MONTES VIVERRA</h2>
+            <h3>ACCUMSAN MONTES VIVERRA</h3>
             <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
         </div>
         <div class="acc_right">
             <div class="amet">
-                <h2>SEM TURPIS AMET SEMPER</h2>
+                <h3>SEM TURPIS AMET SEMPER</h3>
                 <ul>
-                    <li><a href="" herf="#"></a></li>
-                    <li><a href="" herf="#"></a></li>
-                    <li><a href="" herf="#"></a></li>
-                    <li><a href="" herf="#"></a></li>
+                    <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+                    <li><a href="#">Etiam vel lorem sed amet.</a></li>
+                    <li><a href="#">Felis enim feugiat viverra.</a></li>
+                    <li><a href="#">Dolor pulvinar magna etiam.</a></li>
                 </ul>
             </div>
             <div class="magna">
-                <h2>MAGNA SED IPSUM</h2>
+                <h3>MAGNA SED IPSUM</h3>
                 <ul>
-                    <li><a href="" herf="#"></a></li>
-                    <li><a href="" herf="#"></a></li>
-                    <li><a href="" herf="#"></a></li>
-                    <li><a href="" herf="#"></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i>Github</a></li>        
                 </ul>
             </div>
         </div>
     </div>
     <div class="copyright">
+        <div>
         <p>© Untitled. Photos Unsplash, Video Coverr.</p>
+        </div>
     </div>
 </body>
 </html>
