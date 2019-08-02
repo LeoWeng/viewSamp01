@@ -56,7 +56,7 @@ ul{
 .menu>a{
     color: #aaa;
     line-height: 40px;
-    transition: all 0.3s;
+    transition: all 0.3s;   /* 此 css 樣式全部套用轉場效果（如果根源設定不同時） */
 }
 
 .menu a:hover{
@@ -73,7 +73,7 @@ ul{
     margin-top: 40px;
 }
 
-.overlay{
+.banner .overlay{
     padding: 200px 0;
     background-color: #666;
     text-align: center;
@@ -99,14 +99,15 @@ ul{
 .sem{
     text-align: center;
     background-color: #eee;
+    padding: 70px 0;
 }
 
-.sem h2{
+h2{
     font-size: 2em;
     font-weight: normal;
 }
 
-.sem p{
+p.subtitle{
     width: 75%;
     margin: 0 auto;
     line-height: 1.8em;
@@ -127,6 +128,7 @@ ul{
 .card i{
     font-size: 4.5em;
     margin-top: 30px;
+    color: #a11;
 }
 
 .card h3{
@@ -137,4 +139,18 @@ ul{
 .card p{
     font-size: 0.9em;
     padding-bottom: 30px;
+}
+
+/* banner B */
+.bannerb{
+    background: #333 url('../img/unsplash.jpg') center bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+.bannerb .overlay{
+    padding: 120px 0;
+    background-color: rgba(250, 0, 0, 0.5);
 }
